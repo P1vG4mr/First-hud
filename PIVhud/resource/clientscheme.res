@@ -2394,8 +2394,56 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		
+		Masterblast15
+		{
+			"1"
+			{
+				"name"		"Masterblast"
+				"tall"		"15"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}	
+		
+		Masterblast18
+		{
+			"1"
+			{
+				"name"		"Masterblast"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Masterblast25
+		{
+			"1"
+			{
+				"name"		"Masterblast"
+				"tall"		"25"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		Masterblast36
+		{
+			"1"
+			{
+				"name"		"Masterblast"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+	
 	}
+	
+	// Custom fonts
+	
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -4300,6 +4348,11 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"7"
+		{
+			"font" "resource/fonts/Masterblast.otf"
+			"name" "Masterblast"		
+		}
 	}
 }

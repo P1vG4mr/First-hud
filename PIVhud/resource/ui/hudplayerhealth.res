@@ -54,7 +54,7 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"62"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"40"	[$WIN32]
+		"ypos"			"41"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
@@ -82,7 +82,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Masterblast36"
-		"fgcolor"		"27 254 254 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"PlayerStatusHealthValueBG"
@@ -101,7 +101,32 @@
 		"font"			"Masterblast36"
 		"fgcolor"		"0 0 0 255"
 	}
-	
+
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"63"
+		"ypos"			"85"
+		"zpos"			"2"
+		"wide"			"51"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
+
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

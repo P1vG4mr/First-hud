@@ -2186,6 +2186,21 @@ Scheme
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
+		
+/////////////////////////custom fonts///////////
+
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+/////////////////////////normal fonts///////////
+
 		"ReplayVerySmall"
 		{
 			"1"
@@ -4352,7 +4367,13 @@ Scheme
 		"7"
 		{
 			"font" "resource/fonts/Masterblast.otf"
-			"name" "Masterblast"		
+			"name" "Masterblast"
+			
 		}
-	}
+		"9" // Fog's xHairs
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+	}	
 }

@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
+"Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,11 +6,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"0"
-		"ypos"			"r130"
-		"xpos_minmode"	"r52"
-		"ypos_minmode"	"r68"
-		"x_offset_minmode"		"0"
+		"xpos"			"c-75"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos"			"r130"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
+		"x_offset_minmode"		"0"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r160"	[$X360]
 		"wide"			"f0"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -21,14 +23,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"54"
+		"ypos"			"30"
 		"zpos"			"0"
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"50"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -41,8 +43,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c0"
-		"ypos"					"25"
+		"xpos"					"94"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -55,7 +57,7 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Cleaver"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -68,8 +70,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"c-40"
-		"ypos"					"28"
+		"xpos"					"54"
+		"ypos"					"8"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"

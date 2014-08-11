@@ -2454,12 +2454,228 @@ Scheme
 			}
 		}
 	
-	}
-	
-	// Custom fonts
 	
 	
+	  // Custom fonts
+	 //Cerbetica normal
+		"Cerbetica7"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "7"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica8"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "8"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica9"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "9"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica12"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "12"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica14"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "14"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica16"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica20"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "20"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica22"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "22"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 
+		"Cerbetica24"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "24"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"TeamMenuBold"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"TeamMenu"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"11"
+				"weight"	"600"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+
+		
+	 //Cerbetica Bold
+		"CerbeticaBold15"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "15"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold20"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "20"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold28"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "28"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold32"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "32"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold36"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "36"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold42"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "42"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold44"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "44"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold46"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "46"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold48"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "48"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold56"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "56"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+	
+	
+	}
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -4370,10 +4586,29 @@ Scheme
 			"name" "Masterblast"
 			
 		}
+		"8" // Cerbetica
+		{
+		
+			"font" "resource/Cerbetica.ttf"
+			"name" "Cerbetica"
+		}
 		"9" // Fog's xHairs
 		{
 			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
+		"10" // Cerbetica bolded, for ammo/health, etc.
+		{
+		
+			"font" "resource/Cerbetica_bold.ttf"
+			"name" "Cerbetica Bold"
+		"11" // Edited font for TargetIDs, menus, etc.
+		{
+		
+			"font" "resource/Cerbetica_edited.ttf"
+			"name" "Cerbetica_edited"
+		}
+	
+
 	}	
 }
